@@ -1241,8 +1241,8 @@ MonoBehaviour:
     m_Bits: 512
   ApplyDamageOnTriggerEnter: 1
   ApplyDamageOnTriggerStay: 1
-  MinDamageCaused: 5
-  MaxDamageCaused: 5
+  MinDamageCaused: 3
+  MaxDamageCaused: 3
   TypedDamages: []
   DamageCausedKnockbackType: 1
   DamageCausedKnockbackDirection: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   DamageTakenInvincibilityDuration: 0.5
   HitDamageableFeedback: {fileID: 0}
   HitNonDamageableFeedback: {fileID: 0}
-  FreezeFramesOnHitDuration: 0.15
+  FreezeFramesOnHitDuration: 0
   Owner: {fileID: 386838658}
 --- !u!1 &400629734
 GameObject:
