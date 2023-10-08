@@ -230,7 +230,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.05158949, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -241,7 +241,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.31}
+  m_Size: {x: 0.39238644, y: 1.31}
   m_EdgeRadius: 0
 --- !u!114 &4094297401510315513
 MonoBehaviour:
@@ -301,8 +301,8 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    Physics2DInteraction: 1
-    Physics2DPushForce: 2
+    Physics2DInteraction: 0
+    Physics2DPushForce: 0
     DrawRaycastsGizmos: 1
     DisplayWarnings: 1
   PlatformMask:
@@ -442,7 +442,7 @@ MonoBehaviour:
   ActiveAfterDeath: 0
   TouchTheGroundFeedback: {fileID: 0}
   MinimumAirTimeBeforeFeedback: 0.2
-  StopWalkingWhenCollidingWithAWall: 0
+  StopWalkingWhenCollidingWithAWall: 1
 --- !u!114 &4094297401510315509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,13 +569,13 @@ MonoBehaviour:
   BlockingConditionStates: 
   BlockingWeaponStates: 
   NumberOfJumps: 1
-  JumpHeight: 3.025
-  JumpRestrictions: 2
+  JumpHeight: 2.4
+  JumpRestrictions: 0
   ResetCameraOffsetOnJump: 0
   CanJumpDownOneWayPlatforms: 1
   JumpIsProportionalToThePressTime: 1
   JumpMinimumAirTime: 0.1
-  JumpReleaseForceFactor: 2
+  JumpReleaseForceFactor: 1.75
   CoyoteTime: 0
   InputBufferDuration: 0
   OneWayPlatformsJumpCollisionOffDuration: 0.3
