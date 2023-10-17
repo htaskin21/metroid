@@ -50,7 +50,7 @@ MonoBehaviour:
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
   TimeBetweenUses: 1
-  TimeBetweenUsesReleaseInterruption: 1
+  TimeBetweenUsesReleaseInterruption: 0
   CooldownDuration: 0
   UseBurstMode: 0
   BurstLength: 3
@@ -151,12 +151,12 @@ MonoBehaviour:
     Delay: 0
     RecoilFeedback: {fileID: 0}
   MeleeDamageAreaMode: 0
-  DamageAreaShape: 1
-  AreaOffset: {x: 0.8, y: 0}
-  AreaSize: {x: 0.8, y: 0.8}
+  DamageAreaShape: 0
+  AreaOffset: {x: 0.94, y: -0.14}
+  AreaSize: {x: 0.8, y: 0.2}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0.1
-  ActiveDuration: 0.5
+  InitialDelay: 0.15
+  ActiveDuration: 0.4
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 8192
