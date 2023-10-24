@@ -155,8 +155,8 @@ MonoBehaviour:
   AreaOffset: {x: 0.94, y: -0.14}
   AreaSize: {x: 0.8, y: 0.2}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0.15
-  ActiveDuration: 0.4
+  InitialDelay: 0.25
+  ActiveDuration: 0.3
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 8192
